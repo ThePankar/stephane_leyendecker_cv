@@ -3,219 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CV de Stéphane Leyendecker, Ingénieur Mécanique & 3D.">
-  <title>CV - Stéphane Leyendecker</title>
+  
+  <!-- SEO Basique -->
+  <title>CV Stéphane Leyendecker | Ingénieur Mécanique & 3D (Expert CATIA/SolidWorks)</title>
+  <meta name="description" content="Ingénieur Mécanique et 3D expérimenté. Expert en CAO (CATIA V5/V6, SolidWorks), dimensionnement structure et innovation brevetée. Disponible pour de nouveaux défis.">
+  <meta name="keywords" content="Ingénieur Mécanique, Ingénieur 3D, CATIA V5, SolidWorks, Conception, Dimensionnement, Brevet, RDM, CFAO, Stéphane Leyendecker">
+  <meta name="author" content="Stéphane Leyendecker">
+  <meta name="robots" content="index, follow">
+  
+  <!-- SEO Réseaux Sociaux (Open Graph) -->
+  <meta property="og:title" content="CV Stéphane Leyendecker - Ingénieur Mécanique & 3D">
+  <meta property="og:description" content="Expert en conception mécanique, CAO et innovation technique. Découvrez mon parcours chez Renault, Capgemini et Segula.">
+  <meta property="og:type" content="website">
+  <!-- URL de ton site GitHub une fois en ligne -->
+  <meta property="og:url" content="https://ThePankar.github.io/stephane_leyendecker_cv/">
+  <!-- Lien vers photo de profil pour l'aperçu -->
+  <meta property="og:image" content="https://media.licdn.com/dms/image/v2/C4E03AQHt2AkpV8l6rg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1653232072785?e=1773878400&v=beta&t=83xoQWqfTMwacM5v4maq9LT8PnUykEgT9Cvyogd79v8">
+  
+  <!-- Sécurité : Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self'">
+  
+  <!-- Données Structurées JSON-LD (Pour Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Stéphane Leyendecker",
+    "jobTitle": "Ingénieur Mécanique & 3D",
+    "url": "https://tonpseudo.github.io/cv/",
+    "sameAs": [
+      "https://www.linkedin.com/in/stephane-leyendecker/"
+    ],
+    "knowsAbout": ["CATIA V5", "SolidWorks", "Conception Mécanique", "Dimensionnement", "RDM", "CFAO"],
+    "workExperience": [
+      { "@type": "Organization", "name": "Estella Consulting" },
+      { "@type": "Organization", "name": "Capgemini Engineering" },
+      { "@type": "Organization", "name": "Segula" },
+      { "@type": "Organization", "name": "Renault" }
+    ]
+  }
+  </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   
+  <script src="https://cdn.tailwindcss.com"></script>
+  
   <style>
     :root {
-      --bg: #0F0F0F;
-      --bg-sidebar: rgba(10, 10, 10, 0.7);
-      --fg: #F5F5F5;
-      --muted: #888888;
-      --accent: #D4AF37;
-      --accent-light: #F4DF89;
-      --card: rgba(30, 30, 30, 0.6);
-      --border: rgba(255, 255, 255, 0.1);
-      --heading: #FFFFFF;
-      --glass-blur: 20px;
+      --bg: #0F0F0F; --bg-sidebar: rgba(10, 10, 10, 0.7); --fg: #F5F5F5; --muted: #888888; --accent: #D4AF37; --accent-light: #F4DF89; --card: rgba(30, 30, 30, 0.6); --border: rgba(255, 255, 255, 0.1); --heading: #FFFFFF; --glass-blur: 20px;
     }
-
-    [data-theme="light"] {
-      --bg: #E8E6E1;
-      --bg-sidebar: rgba(242, 240, 235, 0.8);
-      --fg: #1A1A1A;
-      --muted: #555555;
-      --accent: #A08020;
-      --accent-light: #C9A227;
-      --card: rgba(255, 255, 255, 0.7);
-      --border: rgba(0, 0, 0, 0.08);
-      --heading: #1A1A1A;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: var(--bg);
-      color: var(--fg);
-      line-height: 1.5;
-      transition: background-color 0.6s ease, color 0.4s ease;
-      overflow-x: hidden;
-      margin: 0;
-      font-size: 16px;
-    }
-
+    [data-theme="light"] { --bg: #E8E6E1; --bg-sidebar: rgba(242, 240, 235, 0.8); --fg: #1A1A1A; --muted: #555555; --accent: #A08020; --accent-light: #C9A227; --card: rgba(255, 255, 255, 0.7); --border: rgba(0, 0, 0, 0.08); --heading: #1A1A1A; }
+    * { box-sizing: border-box; } html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--fg); line-height: 1.5; transition: background-color 0.6s ease, color 0.4s ease; overflow-x: hidden; margin: 0; font-size: 16px; }
     .font-serif { font-family: 'Crimson Pro', serif; }
     :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-    /* --- Animations --- */
     @keyframes float { 0% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-30px) rotate(3deg); } 100% { transform: translateY(0px) rotate(0deg); } }
     @keyframes dotLoop { 0% { transform: scale(0); opacity: 0; } 2% { transform: scale(1); opacity: 1; } 98% { transform: scale(1); opacity: 1; } 100% { transform: scale(0); opacity: 0; } }
     @keyframes pulseGlow { 0% { box-shadow: 0 0 0px rgba(212, 175, 55, 0); } 50% { box-shadow: 0 0 8px var(--accent); background-color: var(--accent-light); } 100% { box-shadow: 0 0 0px rgba(212, 175, 55, 0); } }
     @keyframes highlightPulse { 0% { text-shadow: 0 0 5px rgba(212, 175, 55, 0.2); } 50% { text-shadow: 0 0 15px rgba(212, 175, 55, 0.6); } 100% { text-shadow: 0 0 5px rgba(212, 175, 55, 0.2); } }
     @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
-
     .floating-shape { position: absolute; border-radius: 50%; background: var(--accent); opacity: 0.04; filter: blur(50px); animation: float 25s infinite ease-in-out; pointer-events: none; }
     .reveal-item { opacity: 0; transform: translateX(-20px); transition: all 0.8s cubic-bezier(0.22, 1, 0.3, 1); }
     .reveal-item.visible { opacity: 1; transform: translateX(0); }
-
-    /* --- Sidebar --- */
-    .sidebar { background-color: var(--bg-sidebar); backdrop-filter: blur(var(--glass-blur)); border-right: 1px solid var(--border); height: 100vh; width: 320px; position: fixed; left: 0; top: 0; display: flex; flex-direction: column; padding: 2rem 1.5rem; z-index: 20; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.5s ease, padding 0.3s; overflow-y: auto; overflow-x: hidden; scrollbar-width: none; }
+    .sidebar { background-color: var(--bg-sidebar); backdrop-filter: blur(var(--glass-blur)); border-right: 1px solid var(--border); height: 100vh; width: 320px; position: fixed; left: 0; top: 0; display: flex; flex-direction: column; padding: 2rem 1.5rem; z-index: 20; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); overflow-y: auto; overflow-x: hidden; scrollbar-width: none; }
     .sidebar::-webkit-scrollbar { display: none; }
     .sidebar-inner { display: flex; flex-direction: column; height: 100%; }
     .flex-distribute { flex-grow: 1; display: flex; flex-direction: column; justify-content: space-evenly; gap: 0.8rem; }
-
-    @media (max-height: 800px) { .sidebar { padding: 1.5rem 1rem; } .avatar-ring { width: 60px; height: 60px; margin-bottom: 0.5rem; } .avatar-inner { font-size: 1.5rem; } h1 { font-size: 1.75rem; } .flex-distribute { gap: 0.4rem; } }
+    @media (max-height: 800px) { .sidebar { padding: 1.5rem 1rem; } .avatar-ring { width: 60px; height: 60px; margin-bottom: 0.5rem; } }
     @media (min-width: 1024px) { .sidebar { transform: translateX(0) !important; } main { margin-left: 320px !important; } }
     @media (max-width: 1023px) { .sidebar { transform: translateX(-100%); width: 300px; } .sidebar.open { transform: translateX(0); } .sidebar-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(2px); z-index: 15; opacity: 0; pointer-events: none; transition: opacity 0.3s; } .sidebar-overlay.active { opacity: 1; pointer-events: auto; } }
-
-    /* --- Controls --- */
     .floating-controls { position: fixed; top: 1.5rem; right: 1.5rem; display: flex; gap: 0.5rem; z-index: 50; }
     .ctrl-btn { padding: 8px 14px; background: var(--card); border: 1px solid var(--border); border-radius: 50px; font-size: 0.8rem; color: var(--fg); cursor: pointer; display: flex; align-items: center; gap: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.2s ease; backdrop-filter: blur(10px); }
     @media (min-width: 1024px) { .menu-btn-mobile { display: none; } }
-
-    /* --- Layout Main --- */
     .main-container { max-width: 1400px; margin: 0 auto; padding: 2rem 3rem; position: relative; min-height: 100vh; }
-    .bg-text { position: absolute; top: 10%; right: -5%; font-family: 'Crimson Pro', serif; font-size: 100px; font-weight: 700; line-height: 1.1; color: var(--fg); opacity: 0.02; pointer-events: none; white-space: nowrap; z-index: 0; writing-mode: vertical-rl; text-orientation: mixed; display: none; letter-spacing: -0.02em; }
+    .bg-text { position: absolute; top: 10%; right: -5%; font-family: 'Crimson Pro', serif; font-size: 100px; font-weight: 700; line-height: 1.1; color: var(--fg); opacity: 0.02; pointer-events: none; white-space: nowrap; z-index: 0; writing-mode: vertical-rl; text-orientation: mixed; display: none; }
     @media (min-width: 1024px) { .bg-text { display: block; } }
-    
-    /* --- Timeline Grid --- */
     .timeline-grid { display: grid; grid-template-columns: 80px 1fr; gap: 1.5rem 2rem; position: relative; }
     .timeline-line { position: absolute; left: 80px; top: 0; bottom: 0; width: 1px; background: linear-gradient(to bottom, transparent, var(--border), transparent); }
     .time-col { text-align: right; padding-top: 1.2rem; }
     .content-col { position: relative; }
     .time-current { font-size: 1.5rem !important; font-weight: 700; color: var(--accent-light); animation: highlightPulse 3s infinite; }
-
-    /* --- Cards --- */
-    .exp-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; cursor: pointer; backdrop-filter: blur(12px); margin-bottom: 2rem; }
-    
-    /* Bandes de couleur */
-    .exp-card { border-left: 4px solid transparent; }
+    .exp-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; transition: transform 0.3s ease, box-shadow 0.3s ease; position: relative; overflow: hidden; cursor: pointer; backdrop-filter: blur(12px); margin-bottom: 2rem; border-left: 4px solid transparent; }
     .exp-card.band-neutral { border-left-color: rgba(255,255,255,0.1); }
     .exp-card.band-blue { border-left-color: #0ea5e9; }
     .exp-card.band-green { border-left-color: #10b981; }
     .exp-card.band-gold { border-left-color: var(--accent); border-left-width: 5px; }
-
     .exp-card::before { content: ""; position: absolute; inset: 0; background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(212, 175, 55, 0.15), transparent 40%); opacity: 0; transition: opacity 0.3s; z-index: 0; pointer-events: none; }
     .exp-card:hover::before { opacity: 1; }
     .exp-card:hover { transform: scale(1.01); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
     .card-details { max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.6s ease, opacity 0.5s ease, padding 0.4s ease; }
     .exp-card:hover .card-details { max-height: 1000px; opacity: 1; padding-top: 1.5rem; margin-top: 1.5rem; border-top: 1px solid var(--border); }
-
-    /* --- Components --- */
-    /* Avatar avec vraie photo */
-    .avatar-ring {
-        position: relative; 
-        width: 80px; 
-        height: 80px; 
-        border-radius: 50%;
-        background: linear-gradient(135deg, var(--accent), transparent); 
-        padding: 3px; 
-        margin: 0 auto 1rem;
-    }
-    .avatar-inner {
-        width: 100%; 
-        height: 100%; 
-        border-radius: 50%; 
-        background: var(--bg-sidebar);
-        overflow: hidden; /* Pour que l'image ne dépasse pas du cercle */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .avatar-inner img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* L'image remplit le cercle sans être déformée */
-    }
-
+    .avatar-ring { position: relative; width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), transparent); padding: 3px; margin: 0 auto 1rem; }
+    .avatar-inner { width: 100%; height: 100%; border-radius: 50%; background: var(--bg-sidebar); overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .avatar-inner img { width: 100%; height: 100%; object-fit: cover; }
     .tag { padding: 4px 10px; background: rgba(212, 175, 55, 0.1); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 4px; font-size: 0.75rem; color: var(--accent); margin: 2px; display: inline-flex; line-height: 1.3; }
-
-    /* --- Sidebar Section Titles --- */
     .sidebar-section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--fg); margin-bottom: 0.5rem; text-align: center; opacity: 0.9; }
-
-    /* --- Skills List --- */
     .skill-list-item { display: flex; justify-content: space-between; align-items: center; padding: 0.35rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .skill-list-item:last-child { border-bottom: none; }
     .skill-dots { display: flex; gap: 4px; }
     .dot { width: 8px; height: 8px; border-radius: 50%; background-color: var(--border); animation: dotLoop 20s infinite; transform: scale(0); }
-    .dot:nth-child(1) { animation-delay: 0s; }
-    .dot:nth-child(2) { animation-delay: 0.2s; }
-    .dot:nth-child(3) { animation-delay: 0.4s; }
-    .dot:nth-child(4) { animation-delay: 0.6s; }
-    .dot:nth-child(5) { animation-delay: 0.8s; }
+    .dot:nth-child(1) { animation-delay: 0s; } .dot:nth-child(2) { animation-delay: 0.2s; } .dot:nth-child(3) { animation-delay: 0.4s; } .dot:nth-child(4) { animation-delay: 0.6s; } .dot:nth-child(5) { animation-delay: 0.8s; }
     .dot.active { background-color: var(--accent); }
     .dot.last-active { background-color: var(--accent); animation: dotLoop 20s infinite 0.8s, pulseGlow 2s infinite 1s; }
-
-    /* --- Software Badges --- */
     .software-item-group { display: flex; align-items: center; gap: 8px; }
     .skill-badge { font-size: 0.6rem; padding: 1px 5px; border-radius: 3px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
     .badge-expert { background: linear-gradient(90deg, var(--accent), var(--accent-light), var(--accent)); background-size: 200% 100%; color: #000; animation: shimmer 3s linear infinite; }
     .badge-experimented { background: rgba(200, 200, 200, 0.15); border: 1px solid rgba(255, 255, 255, 0.3); color: var(--fg); opacity: 0.9; }
     .badge-confirmed { background: rgba(100, 149, 237, 0.15); border: 1px solid rgba(100, 149, 237, 0.3); color: #87CEFA; }
-
-    /* --- Main Section Titles --- */
     .main-section-title { font-size: 3rem; font-family: 'Crimson Pro', serif; margin-bottom: 3rem; display: flex; align-items: center; gap: 1.5rem; color: var(--heading); cursor: default; transition: all 0.4s ease; }
     .main-section-title:hover { letter-spacing: 0.05em; color: var(--accent-light); }
     .main-section-title .line { display: block; width: 60px; height: 2px; background: var(--accent); transition: all 0.4s ease; opacity: 0.7; }
     .main-section-title:hover .line { width: 100px; opacity: 1; box-shadow: 0 0 10px var(--accent); }
-
-    /* --- Logo Stamp --- */
-    .logo-stamp {
-        position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
-        width: 60px;
-        height: 60px;
-        background: rgb(255, 255, 255);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: rotate(12deg);
-        opacity: 0.95;
-        z-index: 20; 
-        transition: transform 0.3s ease;
-        pointer-events: none;
-        overflow: hidden;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .logo-stamp img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        transform: rotate(-12deg);
-        mix-blend-mode: multiply; 
-        padding: 4px;
-    }
-
-    .exp-card:hover .logo-stamp { 
-        transform: rotate(12deg) scale(1.05); 
-        box-shadow: 0 6px 10px rgba(0,0,0,0.15);
-    }
-    
+    .logo-stamp { position: absolute; top: 1.5rem; right: 1.5rem; width: 60px; height: 60px; background: rgb(255, 255, 255); border-radius: 8px; display: flex; align-items: center; justify-content: center; transform: rotate(12deg); opacity: 0.95; z-index: 20; transition: transform 0.3s ease; pointer-events: none; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .logo-stamp img { width: 100%; height: 100%; object-fit: contain; transform: rotate(-12deg); mix-blend-mode: multiply; padding: 4px; }
+    .exp-card:hover .logo-stamp { transform: rotate(12deg) scale(1.05); box-shadow: 0 6px 10px rgba(0,0,0,0.15); }
     .logo-stamp.stamp-blue { border: 1px solid rgba(14, 165, 233, 0.2); }
     .logo-stamp.stamp-green { border: 1px solid rgba(16, 185, 129, 0.2); }
     .logo-stamp.stamp-yellow { border: 1px solid rgba(250, 204, 21, 0.3); }
-
-    /* --- Card Progress Bars --- */
     .skill-row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 0.75rem; }
     .skill-row:last-child { margin-bottom: 0; }
     .skill-name { font-size: 0.75rem; opacity: 0.9; white-space: nowrap; }
     .skill-bar-container { flex-grow: 1; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; max-width: 200px; }
     .skill-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-light)); border-radius: 2px; width: 0; transition: width 1s ease-out 0.3s; }
     .exp-card:hover .skill-bar-fill { width: var(--w); }
-
     .text-adaptive { font-size: 0.9rem; }
     .text-adaptive-sm { font-size: 0.8rem; }
-
     @media (max-width: 1023px) { .timeline-grid { grid-template-columns: 1fr; gap: 1rem; } .time-col { display: none; } .timeline-line { display: none; } .exp-card { margin-bottom: 1.5rem; } .main-container { padding: 1rem; } .main-section-title { font-size: 2.2rem; } }
   </style>
 </head>
@@ -242,10 +156,10 @@
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-inner text-center">
       <header class="flex-shrink-0 mb-2">
-        <!-- Photo de profil intégrée -->
         <div class="avatar-ring">
             <div class="avatar-inner">
-                <img src="https://media.licdn.com/dms/image/v2/C4E03AQHt2AkpV8l6rg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1653232072785?e=1773878400&v=beta&t=83xoQWqfTMwacM5v4maq9LT8PnUykEgT9Cvyogd79v8" alt="Photo de profil Stéphane Leyendecker">
+                <!-- Sécurité : Ajout de width/height pour CLS et loading lazy -->
+                <img src="https://media.licdn.com/dms/image/v2/C4E03AQHt2AkpV8l6rg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1653232072785?e=1773878400&v=beta&t=83xoQWqfTMwacM5v4maq9LT8PnUykEgT9Cvyogd79v8" alt="Photo de profil Stéphane Leyendecker" width="80" height="80" loading="lazy">
             </div>
         </div>
         <h1 class="font-serif text-3xl leading-tight px-2" style="color: var(--fg)" data-i18n="name">Stéphane<br/>Leyendecker</h1>
@@ -257,8 +171,9 @@
         <nav>
           <h2 class="sidebar-section-title" data-i18n="contact">Contact</h2>
           <div class="text-center text-adaptive-sm space-y-1">
-            <a href="mailto:leyendecker.st@gmail.com" class="hover:text-[var(--accent)] transition-colors flex items-center justify-center gap-2"><svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg><span>Email</span></a>
-            <a href="tel:+33666989203" class="hover:text-[var(--accent)] transition-colors flex items-center justify-center gap-2"><svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg><span>06 66 98 92 03</span></a>
+            <!-- Sécurité : rel="noopener noreferrer" sur les liens externes -->
+            <a href="mailto:leyendecker.st@gmail.com" class="hover:text-[var(--accent)] transition-colors flex items-center justify-center gap-2" rel="noopener"><svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg><span>Email</span></a>
+            <a href="tel:+33666989203" class="hover:text-[var(--accent)] transition-colors flex items-center justify-center gap-2" rel="noopener"><svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg><span>06 66 98 92 03</span></a>
             <span class="flex items-center justify-center gap-2"><svg class="w-4 h-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2"></path></svg><span data-i18n="permis">Permis B</span></span>
           </div>
         </nav>
@@ -307,7 +222,8 @@
             <div class="content-col reveal-item">
                 <article class="exp-card band-neutral p-6" tabindex="0">
                     <div class="logo-stamp square">
-                        <img src="https://tse4.mm.bing.net/th/id/OIP.L2nnKWP-lBgnhHbsQWwMWwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Logo Estella">
+                        <!-- Lazy loading et dimensions explicites -->
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.L2nnKWP-lBgnhHbsQWwMWwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Logo Estella Consulting" width="60" height="60" loading="lazy">
                     </div>
                     <div class="relative z-10">
                         <h3 class="font-serif text-xl mt-0.5" style="color: var(--fg)" data-i18n="estella_title">Ingénieur 3D</h3>
@@ -333,7 +249,7 @@
             <div class="content-col reveal-item">
                 <article class="exp-card band-blue p-6" tabindex="0">
                     <div class="logo-stamp stamp-blue">
-                        <img src="https://www.liblogo.com/img-logo/ca4474a981--logo-about-our-company-.png" alt="Logo Capgemini">
+                        <img src="https://www.liblogo.com/img-logo/ca4474a981--logo-about-our-company-.png" alt="Logo Capgemini" width="60" height="60" loading="lazy">
                     </div>
                     <div class="relative z-10">
                         <h3 class="font-serif text-xl mt-0.5" style="color: var(--fg)" data-i18n="cap_title">Ingénieur Étude</h3><p class="text-sm text-[var(--muted)]">Capgemini Engineering</p>
@@ -353,7 +269,7 @@
             <div class="content-col reveal-item">
                 <article class="exp-card band-green p-6" tabindex="0">
                     <div class="logo-stamp stamp-green">
-                        <img src="https://latestlogo.com/wp-content/uploads/2025/09/segula-technologies-logo-scaled.png" alt="Logo Segula">
+                        <img src="https://latestlogo.com/wp-content/uploads/2025/09/segula-technologies-logo-scaled.png" alt="Logo Segula Technologies" width="60" height="60" loading="lazy">
                     </div>
                     <div class="relative z-10">
                         <h3 class="font-serif text-xl mt-0.5" style="color: var(--fg)" data-i18n="segula_title">Ingénieur Étude</h3><p class="text-sm text-[var(--muted)]">Segula</p>
@@ -368,7 +284,7 @@
             <div class="content-col reveal-item">
                 <article class="exp-card band-gold p-6" tabindex="0">
                     <div class="logo-stamp stamp-yellow">
-                        <img src="https://assets.renaultgroup.com/uploads/2021/03/nouveau_logo_renault.jpg?format=webp&width=2048" alt="Logo Renault">
+                        <img src="https://assets.renaultgroup.com/uploads/2021/03/nouveau_logo_renault.jpg?format=webp&width=2048" alt="Logo Renault Group" width="60" height="60" loading="lazy">
                     </div>
                     <div class="relative z-10">
                         <div class="flex items-center gap-2 mb-1"><span class="px-2 py-0.5 text-[10px] rounded bg-[var(--accent)] text-black font-bold" data-i18n="patent">BREVET</span></div>
@@ -457,7 +373,7 @@
 
     updateContent();
 
-    // --- Visuals ---
+    // --- Performance: Intersection Observer ---
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
