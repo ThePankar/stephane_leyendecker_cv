@@ -5,7 +5,7 @@ CV interactif et responsive développé avec HTML5, Tailwind CSS et JavaScript V
 Ce projet met en valeur mon parcours d'ingénieur mécanique avec une interface moderne, sombre/clair et optimisée pour le référencement (SEO).
 
 🚀 Démo
-👉 Voir le CV en ligne : https://tonpseudo.github.io/cv/
+👉 Voir le CV en ligne : https://thepankar.github.io/stephane_leyendecker_cv/
 
 ✨ Fonctionnalités
 🌓 Mode Sombre / Clair avec persistance des préférences.
@@ -20,5 +20,4 @@ JavaScript (ES6+)
 GitHub Pages (Hébergement)
 
 📧 Contact
-Email : leyendecker.st@gmail.com
 LinkedIn : Stéphane Leyendecker
