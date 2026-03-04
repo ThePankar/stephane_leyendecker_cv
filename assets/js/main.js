@@ -1,24 +1,24 @@
 // === DATA ===
 const translations = {
-  en: { 
-    name: "Stéphane<br/>Leyendecker", title: "Mechanical & 3D Engineer", contact: "CONTACT", permis: "Driver's License", 
-    skills: "SKILLS", software: "SOFTWARE", lang: "LANGUAGES", interests: "INTERESTS", interests_list: "DIY, Terrariums", 
-    exp_title: "Professional Experience", context: "CONTEXT", skills_acquired: "SKILLS", success: "KEY ACHIEVEMENT", 
-    estella_title: "3D Engineer", estella_task1: "Study and dimensioning of Crane elements.", estella_task2: "3D Creation & Plans.", estella_detail: "Work on metal structure of tower cranes.", 
-    cap_title: "Study Engineer", cap_task1: "Chassis harness trajectory.", cap_task2: "Factory feedback analysis.", cap_detail: "Routing optimization of electrical harnesses.", 
-    segula_title: "Study Engineer", segula_task1: "Electrical components layout.", segula_task2: "Spatial constraints management.", segula_detail: "Focus on layout in constrained spaces.", 
-    renault_title: "Apprentice Engineer", patent: "PATENT", renault_task1: "Co-inventor of a patent.", renault_task2: "Standard plan realization.", renault_detail: "Active participation in patented technical innovation.", 
-    edu_title: "Education", edu1: "Engineering Degree in Design", edu2: "Web Developer Certification" 
+  en: {
+    name: "Stéphane<br/>Leyendecker", title: "Mechanical & 3D Engineer", contact: "CONTACT", permis: "Driver's License",
+    skills: "SKILLS", software: "SOFTWARE", lang: "LANGUAGES", interests: "INTERESTS", interests_list: "DIY, Terrariums",
+    exp_title: "Professional Experience", context: "CONTEXT", skills_acquired: "SKILLS", success: "KEY ACHIEVEMENT",
+    estella_title: "3D Engineer", estella_task1: "Study and dimensioning of Crane elements.", estella_task2: "3D Creation & Plans.", estella_detail: "Work on metal structure of tower cranes.",
+    cap_title: "Study Engineer", cap_task1: "Chassis harness trajectory.", cap_task2: "Factory feedback analysis.", cap_detail: "Routing optimization of electrical harnesses.",
+    segula_title: "Study Engineer", segula_task1: "Electrical components layout.", segula_task2: "Spatial constraints management.", segula_detail: "Focus on layout in constrained spaces.",
+    renault_title: "Apprentice Engineer", patent: "PATENT", renault_task1: "Co-inventor of a patent.", renault_task2: "Standard plan realization.", renault_detail: "Active participation in patented technical innovation.",
+    edu_title: "Education", edu1: "Engineering Degree in Design", edu2: "Web Developer Certification",edu3: "Professional Bachelor's Degree in Innovation and Industrial Development",edu4: "Higher Technician's Certificate in Industrial Product Design",edu5: "Baccalaureate in Mechanical and Production Engineering"
   },
-  fr: { 
-    name: "Stéphane<br/>Leyendecker", title: "Ingénieur Mécanique & 3D", contact: "CONTACT", permis: "Permis B", 
-    skills: "COMPÉTENCES", software: "LOGICIELS & IT", lang: "LANGUES", interests: "CENTRES D'INTÉRÊT", interests_list: "Bricolage, Terrariophilie", 
-    exp_title: "Expériences Professionnelles", context: "CONTEXTE", skills_acquired: "COMPÉTENCES", success: "RÉUSSITE CLÉ", 
-    estella_title: "Ingénieur 3D", estella_task1: "Étude et dimensionnement d'éléments de Grue.", estella_task2: "Création 3D et Plans.", estella_detail: "Travail sur la structure métallique des grues à tour.", 
-    cap_title: "Ingénieur Étude", cap_task1: "Trajectoire de faisceau de châssis.", cap_task2: "Analyse des retours usine.", cap_detail: "Optimisation du routage des faisceaux électriques.", 
-    segula_title: "Ingénieur Étude", segula_task1: "Implantation de composants électriques.", segula_task2: "Gestion des contraintes spatiales.", segula_detail: "Focus sur l'implantation de composants.", 
-    renault_title: "Apprenti Ingénieur", patent: "BREVET", renault_task1: "Co-inventeur d'un brevet.", renault_task2: "Réalisation de plan standard.", renault_detail: "Participation active à l'innovation technique brevetée.", 
-    edu_title: "Formation", edu1: "Diplôme Ingénieur Conception", edu2: "Bac+2 Développeur Web Mobile" 
+  fr: {
+    name: "Stéphane<br/>Leyendecker", title: "Ingénieur Mécanique & 3D", contact: "CONTACT", permis: "Permis B",
+    skills: "COMPÉTENCES", software: "LOGICIELS & IT", lang: "LANGUES", interests: "CENTRES D'INTÉRÊT", interests_list: "Bricolage, Terrariophilie",
+    exp_title: "Expériences Professionnelles", context: "CONTEXTE", skills_acquired: "COMPÉTENCES", success: "RÉUSSITE CLÉ",
+    estella_title: "Ingénieur 3D", estella_task1: "Étude et dimensionnement d'éléments de Grue.", estella_task2: "Création 3D et Plans.", estella_detail: "Travail sur la structure métallique des grues à tour.",
+    cap_title: "Ingénieur Étude", cap_task1: "Trajectoire de faisceau de châssis.", cap_task2: "Analyse des retours usine.", cap_detail: "Optimisation du routage des faisceaux électriques.",
+    segula_title: "Ingénieur Étude", segula_task1: "Implantation de composants électriques.", segula_task2: "Gestion des contraintes spatiales.", segula_detail: "Focus sur l'implantation de composants.",
+    renault_title: "Apprenti Ingénieur", patent: "BREVET", renault_task1: "Co-inventeur d'un brevet.", renault_task2: "Réalisation de plan standard.", renault_detail: "Participation active à l'innovation technique brevetée.",
+    edu_title: "Formations", edu1: "Formation Ingénieur Conception", edu2: "Bac+2 Développeur Web Mobile",edu3: "Licence prof. Innovation et développement industriel",edu4: "BTS Conception de produits industriels",edu5: "Bac STI Génie mécanique et productique"
   }
 };
 
